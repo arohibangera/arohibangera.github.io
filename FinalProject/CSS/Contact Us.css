@@ -1,11 +1,11 @@
-
+/* Navigation CSS Style Start*/
 .navcontainer {
 
   margin-top: 2em;
   width: 100%;
 }
 
-/* Navigation CSS Style Start*/
+
 .topnav {
   overflow: hidden;
   background-color: #FFFFFF;
@@ -49,11 +49,11 @@ body {
   opacity: 0.8;
 }
 
+/* Form Style inputs */
 * {
     box-sizing: border-box;
 }
 
-/* Style inputs */
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -106,6 +106,7 @@ input[type=submit]:hover {
     }
 }
 
+/* Footer CSS Style Start*/
 footer {
   position: relative;
   bottom: -35px;
@@ -116,6 +117,7 @@ footer {
   display: inline-block;
   font-size: 12px;
 }
+/* Footer CSS Style End*/
 
 #iamhere {
   color: red;

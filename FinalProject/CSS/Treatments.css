@@ -105,7 +105,7 @@ input[type=submit]:hover {
   color: white;
 }
 /* Navigation CSS Style End*/
-
+/* Footer CSS Style Start*/
 footer {
   position: relative;
   bottom: -35px;
@@ -116,7 +116,7 @@ footer {
   display: inline-block;
   font-size: 12px;
 }
-
+/* Footer CSS Style End*/
 #iamhere {
   color: red;
 }
