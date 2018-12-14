@@ -7,6 +7,20 @@
 <meta charset="utf-8" />
 <link rel="stylesheet" href="CSS/Contact Us.css" />
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js">
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $("#myForm").validate();
+});
+</script>
+
+
 </head>
 
 <body>
@@ -33,14 +47,17 @@
 
     </div>
     <div class="column">
-      <form action="Thankyou.html">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" placeholder="Enter your name">
-        <label for="email">Email Address</label>
-        <input type="text" id="email" name="email" placeholder="Enter your email address">
+      <form id="myForm" action="Thankyou.html">
 
-        <label for="subject">Your Inquiry</label>
-        <textarea id="subject" name="subject" placeholder="What can we help you with today?" style="height:170px"></textarea>
+        <label for="name">Name <i>(*required)</i></label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" class="required">
+<p>
+        <label for="email">Email Address <i>(*required)</i></label>
+        <input type="text" id="email" name="email" placeholder="Enter your email address" class="required email">
+</p>
+<p>
+        <label for="subject">Your Inquiry <i>(*required)</i></label>
+        <textarea id="subject" name="subject" class="required" placeholder="What can we help you with today?" style="height:170px"></textarea></p>
         <input type="submit" value="Submit">
       </form>
     </div>

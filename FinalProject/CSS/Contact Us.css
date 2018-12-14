@@ -120,3 +120,9 @@ footer {
 #iamhere {
   color: red;
 }
+
+/* error class gets applied by jQuery Validate */
+input.error,  { border: thin solid red; }
+label.error {
+    color: red;
+}
