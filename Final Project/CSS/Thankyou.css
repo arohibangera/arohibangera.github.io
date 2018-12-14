@@ -1,0 +1,24 @@
+body {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  background-color: #CDC4CB;
+  opacity: 0.8;
+  margin-top: 12em;
+}
+
+ h2, p {
+   text-align: center;
+ }
+
+ input[type=submit] {
+     background-color: #00008B;
+     color: white;
+     padding: 10px 40px;
+     border: none;
+     cursor: pointer;
+
+
+ }
+
+ input[type=submit]:hover {
+     background-color: #45a049;
+ }

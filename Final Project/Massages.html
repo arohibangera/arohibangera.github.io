@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title> Quietude Spa | Massages </title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="CSS/Treatments.css" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <div class="navcontainer">
+    <div class="topnav">
+      <img class="logo" src="Images/Q Spa Logo.jpg">
+      <div class="topnav-right">
+        <a href="Welcome.html">Home</a>
+        <a href="About us.html">About Us</a>
+        <a href="Treatments.html" id="iamhere">Treatments and Bookings</a>
+        <a href="Contact Us.html">Contact Us</a>
+      </div>
+    </div>
+  </div>
+
+<center><div class = "menunav">
+  <ul>
+  <li><a href="Treatments.html"> Treatments </a></li>
+  <li><a href="Massages.html" id="iamhere"> Massages </a></li>
+  <li><a href="Facilities.html"> Facilities </a></li>
+</ul>
+</div></center>
+<br />
+<center>
+<div class="table-container">
+    <div class="table-item">
+      <img class="massage1" src="Images/relaxation.jpg" width="200px" height="125px;">
+      <br />
+      <h2> Relaxation Massage </h2>
+      <p>Lorem ipsum dolor sit amet, pellentesque risus arcu sit tincidunt vitae nec, orci a velit etiam quis luctus ac, suscipit nunc class ut, metus libero sed malesuada mauris elit natoque. Nunc ornare quam, turpis quam.</p>
+      <br />
+      <input type="submit" value="Book It" onclick="Random();" />
+
+
+    </div>
+    <div class="table-item">
+      <img class="massage2" src="Images/stressrelief.jpg" width="200px" height="125px;">
+      <br />
+      <h2> Stress Relief Massage </h2>
+      <p>Lorem ipsum dolor sit amet, pellentesque risus arcu sit tincidunt vitae nec, orci a velit etiam quis luctus ac, suscipit nunc class ut, metus libero sed malesuada mauris elit natoque. Nunc ornare quam, turpis quam.</p>
+      <br />
+      <input type="submit" value="Book It" onclick="Random();" />
+
+
+
+    </div>
+    <div class="table-item">
+      <img class="massage3" src="Images/hotstone.jpg" width="200px" height="125px;">
+      <br />
+      <h2> Hot Stones Massage</h2>
+      <p>Lorem ipsum dolor sit amet, pellentesque risus arcu sit tincidunt vitae nec, orci a velit etiam quis luctus ac, suscipit nunc class ut, metus libero sed malesuada mauris elit natoque. Nunc ornare quam, turpis quam.</p>
+      <br />
+      <input type="submit" value="Book It" onclick="Random();" />
+
+    </div>
+  </div>
+</div></center>
+
+<script>
+
+function Random() {
+        var rnd = Math.floor(Math.random() * 1000000000);
+
+        alert("Congratulations! Your booking has been secured. Please use the following reference number at the spa reception: " + rnd);
+    }
+
+</script>
+
+<footer>
+  <p> Project by Arohi Bangera   |   Follow us on <a href = "https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a> <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a> <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a></p>
+</footer>
+
+
+</body>
+
+
+
+</html>

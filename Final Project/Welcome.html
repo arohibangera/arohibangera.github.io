@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title> Quietude Spa | Welcome </title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="CSS/Welcome.css" />
+</head>
+
+<body>
+<!--Three Background Images for the Slideshow-->
+<img class="bgimage" src="Images/130124162549-wellness-spa-4.jpg">
+   <img class="bgimage" src="Images/yoga-3840x2160-girl-weight-loss-beach-sand-sun-relax-fitness-11090 copy.jpg">
+   <img class="bgimage" src="Images/Heide-Spa-Bad-Dueben_Welness_Heide-Spa-Hotel-und-Resort_region.lipzig.travel.jpg">
+
+
+<!--Javascript for Background Image Slideshow start-->
+<script>
+   var myIndex = 0;
+   slideshow();
+
+   function slideshow() {
+       var i;
+       var x = document.getElementsByClassName("bgimage");
+       for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+       }
+       myIndex++;
+       if (myIndex > x.length) {myIndex = 1}
+       x[myIndex-1].style.display = "block";
+       setTimeout(slideshow, 3000); // Change image every 3 seconds, 4000 milliseconds
+   }
+   </script>
+<!--Javascript for Background Image Slideshow end-->
+
+
+
+<!--Navigation Start-->
+<div class="container">
+  <div class="topnav">
+    <img class="logo" src="Images/Q Spa Logo.jpg">
+    <div class="topnav-right">
+      <a href="Welcome.html" id="iamhere">Home</a>
+      <a href="About us.html">About Us</a>
+      <a href="Treatments.html">Treatments and Bookings</a>
+      <a href="Contact Us.html">Contact Us</a>
+    </div>
+  </div>
+</div>
+<!--Navigation End-->
+
+
+
+</body>
+
+
+
+</html>

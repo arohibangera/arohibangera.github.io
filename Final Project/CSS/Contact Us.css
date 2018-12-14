@@ -1,0 +1,122 @@
+
+.navcontainer {
+
+  margin-top: 2em;
+  width: 100%;
+}
+
+/* Navigation CSS Style Start*/
+.topnav {
+  overflow: hidden;
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 80px;
+
+}
+
+.topnav-right {
+  float: right;
+    padding: 14px 16px;
+    padding-right: 2em;
+    font-weight: bold;
+
+}
+
+.topnav a {
+  float: left;
+  color: BLACK;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+/* Navigation CSS Style End*/
+
+
+body {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  background-color: #CDC4CB;
+  opacity: 0.8;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  margin-top: 10px;
+    border-radius: 5px;
+    background-color: #CDC4CB;
+    padding: 15px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 40px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+footer {
+  position: relative;
+  bottom: -35px;
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 12px;
+}
+
+#iamhere {
+  color: red;
+}

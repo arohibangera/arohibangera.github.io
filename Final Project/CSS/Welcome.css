@@ -1,0 +1,65 @@
+body {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+
+
+.bgimage {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;}
+
+
+.container {
+  position: absolute;
+  margin-top: 2em;
+  width: 100%;
+
+}
+
+/* Navigation CSS Style Start*/
+.topnav {
+  overflow: hidden;
+  background-color: #FFFFFF;
+  opacity: 0.8;
+  width: 100%;
+  height: 80px;
+
+
+}
+
+.topnav-right {
+  float: right;
+    padding: 14px 16px;
+    padding-right: 2em;
+    font-weight: bold;
+
+
+}
+
+.topnav a {
+  float: left;
+  color: BLACK;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+/* Navigation CSS Style End*/
+
+#iamhere {
+  color: red;
+}
