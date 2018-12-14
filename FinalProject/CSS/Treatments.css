@@ -120,3 +120,20 @@ footer {
 #iamhere {
   color: red;
 }
+
+/* Image Attributes*/
+
+.facilities {
+  width: 200px;
+  height: 125px;
+}
+
+.massages {
+  width: 200px;
+  height: 125px;
+}
+
+.treatments {
+  width: 200px;
+  height: 125px;
+}
