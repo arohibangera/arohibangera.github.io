@@ -1,84 +1,78 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="zxx">
 
 <head>
-<title> Quietude | Contact Us </title>
-<meta charset="utf-8" />
-<!--Stylesheet for Contact Us Page-->
-<link rel="stylesheet" href="CSS/ContactUs.css" />
-<!--Icons for the footer-->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-<!--Script for Form Validation start-->
-<script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js">
-</script>
-<script>
-$(document).ready(function(){
-    $("#myForm").validate();
-});
-</script>
-<!--Script for Form Validation end-->
+    <title> Quietude | Contact Us </title>
+    <meta charset="utf-8" />
+    <!--Stylesheet for Contact Us Page-->
+    <link rel="stylesheet" href="CSS/ContactUs.css" />
+    <!--Icons for the footer-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!--Script for Form Validation start-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js">
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#myForm").validate();
+        });
+    </script>
+    <!--Script for Form Validation end-->
 
 </head>
 
 <body>
-  <!--Navigation Start-->
-  <div class="navcontainer">
-    <div class="topnav">
-      <img class="logo" src="Images/QSpaLogo.jpg" alt="Quietude Spa Logo">
-      <div class="topnav-right">
-        <a href="Welcome.html">Home</a>
-        <a href="AboutUs.html">About Us</a>
-        <a href="Treatments.html">Treatments and Bookings</a>
-        <a href="ContactUs.html" id="iamhere">Contact Us</a>
-      </div>
+    <!--Navigation Start-->
+    <div class="navcontainer">
+        <div class="topnav">
+            <img class="logo" src="Images/QSpaLogo.jpg" alt="Quietude Spa Logo">
+            <div class="topnav-right">
+                <a href="Welcome.html">Home</a>
+                <a href="AboutUs.html">About Us</a>
+                <a href="Treatments.html">Treatments and Bookings</a>
+                <a href="ContactUs.html" id="iamhere">Contact Us</a>
+            </div>
+        </div>
     </div>
-  </div>
-<!--Navigation End-->
+    <!--Navigation End-->
 
-<div class="container">
-  <div style="text-align:center">
-    <h2>Contact Us</h2>
-    <p>Swing by or leave us a message</p>
-  </div>
-  <div class="row">
-    <div class="column">
-      <!--Google Map for Location (fictional)-->
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3302.4373961661386!2d-80.01849218482006!3d34.135150180583416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88557e70664ac439%3A0x9f9ebddcbc82536a!2sQuietude+Rd%2C+South+Carolina+29161%2C+USA!5e0!3m2!1sen!2suk!4v1543990262404" width="635" height="380" frameborder="0" style="border:0; width:100%" allowfullscreen></iframe>
+    <div class="container">
+        <div style="text-align:center">
+            <h2>Contact Us</h2>
+            <p>Swing by or leave us a message</p>
+        </div>
+        <div class="row">
+            <div class="column">
+                <!--Google Map for Location (fictional)-->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3302.4373961661386!2d-80.01849218482006!3d34.135150180583416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88557e70664ac439%3A0x9f9ebddcbc82536a!2sQuietude+Rd%2C+South+Carolina+29161%2C+USA!5e0!3m2!1sen!2suk!4v1543990262404" width="635" height="380" style="border:0; width:100%" allowfullscreen></iframe>
 
+            </div>
+            <div class="column">
+                <!--Form for Inquiries-->
+                <form id="myForm" action="Thankyou.html">
+
+                    <label for="name">Name <i>(*required)</i></label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" class="required">
+                    <p>
+                        <label for="email">Email Address <i>(*required)</i></label>
+                        <input type="text" id="email" name="email" placeholder="Enter your email address" class="required email">
+                    </p>
+                    <p>
+                        <label for="subject">Your Inquiry <i>(*required)</i></label>
+                        <textarea id="subject" name="subject" class="required" placeholder="What can we help you with today?" style="height:170px"></textarea>
+                    </p>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
     </div>
-    <div class="column">
-      <!--Form for Inquiries-->
-      <form id="myForm" action="Thankyou.html">
-
-        <label for="name">Name <i>(*required)</i></label>
-        <input type="text" id="name" name="name" placeholder="Enter your name" class="required">
-<p>
-        <label for="email">Email Address <i>(*required)</i></label>
-        <input type="text" id="email" name="email" placeholder="Enter your email address" class="required email">
-</p>
-<p>
-        <label for="subject">Your Inquiry <i>(*required)</i></label>
-        <textarea id="subject" name="subject" class="required" placeholder="What can we help you with today?" style="height:170px"></textarea></p>
-        <input type="submit" value="Submit">
-      </form>
-    </div>
-  </div>
-</div>
-<!--Footer Start-->
-<footer>
-  <p> Project by Arohi Bangera   |   Follow us on <a href = "https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a> <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a> <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a></p>
-</footer>
-<!--Footer End-->
-
-
+    <!--Footer Start-->
+    <footer>
+        <p> Project by Arohi Bangera | Follow us on <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a> <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a> <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a></p>
+    </footer>
+    <!--Footer End-->
 
 </body>
-
-
 
 </html>
