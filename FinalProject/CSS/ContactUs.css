@@ -107,7 +107,8 @@ footer {
 /* Footer CSS Style End*/
 
 #iamhere {
-  color: red;
+  color: purple;
+  background-color: #ddd;
 }
 
 /* error class gets applied by jQuery Validate */
