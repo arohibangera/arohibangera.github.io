@@ -1,37 +1,42 @@
 ul {
-  list-style-type: none;
-  overflow: hidden;
-  background-color: #000000;
-  margin-top: 25px;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #000000;
+    margin-top: 25px;
 }
 
 li {
-  float: right;
+    float: right;
 }
 
 li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 li a:hover {
-  background-color: #111;
+    background-color: #111;
 }
 
 .video {
-  text-align: center;
+    text-align: center;
 }
 
 body {
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  font-size: 18px;
-  background-color: #CDCDCD;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 18px;
+    background-color: #CDCDCD;
 }
 
 a {
-  text-decoration: none;
-  color: blue;
+    text-decoration: none;
+    color: blue;
+}
+
+#myID,
+#image {
+    text-align: center;
 }
