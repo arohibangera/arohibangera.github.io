@@ -26,7 +26,8 @@ function setup() {
     radio.option("Calm", 'green');
     //Using style for the radio elements
     radio.style('width', '60px');
-    radio.style('position', 540, 760);
+    // radio.option.style('align', 'center');
+    radio.position(490, 780);
     radio.style('width', '350px');
     myPara = createP("Click here to know something. ");
     myPara.style('align', 'center');
