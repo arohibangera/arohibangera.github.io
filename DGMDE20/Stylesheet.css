@@ -1,160 +1,172 @@
 html {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
-  background-color: black;
-  color: white;
-  width: 100%;
-  position: absolute;
-
+    background-color: black;
+    color: white;
+    width: 100%;
+    position: absolute;
 }
 
 header h1 {
-  width: 30%;
-  float: left;
-  padding-left: 2rem;
-
+    width: 30%;
+    float: left;
+    padding-left: 2rem;
 }
 
 nav {
-  width: 65%;
-  float: left;
+    width: 65%;
+    float: left;
 }
 
 nav ul {
-  list-style-type: none;
-  text-align: right;
+    list-style-type: none;
+    text-align: right;
 }
 
 nav li {
-  display: inline-block;
-  padding-top: 1rem;
-  padding-right: 3rem;
-
+    display: inline-block;
+    padding-top: 1rem;
+    padding-right: 3rem;
 }
 
 nav a {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
 
 nav li a:hover {
-  background-color: white;
-  color: black;
-  padding: 0.5rem;
+    background-color: white;
+    color: black;
+    padding: 0.5rem;
 }
 
 .welcomeimage {
-  width: 65%;
-  margin-top: 6rem;
-  float: left;
-  padding-right: 2rem;
+    width: 65%;
+    margin-top: 6rem;
+    float: left;
+    padding-right: 2rem;
 }
 
 section {
-  padding-right: 2rem;
-  padding-top: 9rem;
-  font-size: 1.2rem;
+    padding-right: 2rem;
+    padding-top: 9rem;
+    font-size: 1.2rem;
 }
 
 .welcomehead {
-  background-color: lightblue;
+    background-color: lightblue;
+    font-weight: bold;
+    font-size: 1.8rem;
 }
 
 .boldtext {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 form {
-  padding-top: 7rem;
-  width: 70%;
-  margin-left: 1rem;
+    padding-top: 7rem;
+    width: 70%;
+    margin-left: 1rem;
 }
 
 fieldset {
-  margin-bottom: 1rem;
-  border: none;
+    margin-bottom: 1rem;
+    border: none;
 }
 
 legend {
-  font-weight: bold;
-  margin-bottom: 0.5rem;
-  background-color: lightblue;
-  font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    background-color: lightblue;
+    font-size: 1.2rem;
 }
 
 label {
-  display: block;
+    display: block;
 }
 
 input {
-  margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
-#name, #phone, #email, #requests {
-  width: 20rem;
+#name,
+#phone,
+#email,
+#requests {
+    width: 20rem;
 }
 
 button {
-  margin-top: 2rem;
-  cursor: pointer;
-  font-size: 1.2rem;
-  font-weight: bold;
+    margin-top: 2rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .immunitea {
-  padding-top: 6rem;
-  clear: both;
+    padding-top: 6rem;
+    clear: both;
 }
 
-.herbal, .greenitea, .exotic {
-  padding-top: 2rem;
-  clear: both;
+.herbal,
+.greenitea,
+.exotic {
+    padding-top: 2rem;
+    clear: both;
 }
 
-.immunitea img, .herbal img, .greenitea img, .exotic img {
-  width: 20%;
-  height: 30%;
-  float: left;
-  padding-right: 1rem;
-  padding-left: 1rem;
-  clear: both;
+.immunitea img,
+.herbal img,
+.greenitea img,
+.exotic img {
+    width: 20%;
+    height: 30%;
+    float: left;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    clear: both;
 }
 
 .skip-link {
-position: absolute;
-width: 1px;
-height: 1px;
-padding: 0;
-overflow: hidden;
-clip: rect(0, 0, 0, 0);
-white-space: nowrap;
--webkit-clip-path: inset(50%);
-clip-path: inset(50%);
-border: 0;
-}
-.skip-link:active, .skip-link:focus {
-position: static;
-width: auto;
-height: auto;
-overflow: visible;
-clip: auto;
-white-space: normal;
--webkit-clip-path: none;
-clip-path: none;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    border: 0;
 }
 
-*:focus, *:hover{
-outline: none;
+.skip-link:active,
+.skip-link:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
+    -webkit-clip-path: none;
+    clip-path: none;
+}
+
+*:focus,
+*:hover {
+    outline: none;
     border-color: #9ecaed;
     box-shadow: 0 0 10px #9ecaed;
 }
