@@ -3540,6 +3540,14 @@ img.u-pull-left {
     color      : white;
 }
 
+.enroll, .enrollitem {
+
+  padding-left : 240px;
+
+  color      : white;
+}
+
+
 .services-list .column:nth-child(2n + 1) {
     padding-right : 2.8rem;
 }
