@@ -1589,6 +1589,8 @@ hr.fancy::before {
 /* --------------------------------------------------------------------
  * ## additional typography & helper classes
  * -------------------------------------------------------------------- */
+
+
 .lead,
 .attention-getter {
     font-family : var(--font-1);
@@ -2895,6 +2897,12 @@ img.u-pull-left {
     left     : 2rem;
 }
 
+.enrollif, .enroll {
+  padding-top    : var(--vspace-1);
+  padding-bottom : var(--vspace-2);
+  margin-top      : var(--vspace-1);
+}
+
 .s-header__logo a {
     display : block;
     margin  : 0;
@@ -3673,6 +3681,7 @@ img.u-pull-left {
  *
  * ------------------------------------------------------------------- */
 .s-works {
+  background-color: #24A89B;
     padding-top    : var(--vspace-1);
     padding-bottom : var(--vspace-2);
 }
